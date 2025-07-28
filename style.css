@@ -1,0 +1,19 @@
+body {background-color: #202020;}
+
+h2 
+{
+    text-align: center;
+    color: #b28ecc;
+}
+
+p {color: white;}
+
+.myButton
+{
+    background-color:#202020;
+    color:#b28ecc;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: 700;
+}
