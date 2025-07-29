@@ -58,6 +58,13 @@ body
     overflow: hidden;
 }
 
+/* fix for white pixel */
 .MJX_LiveRegion {
   display: none !important;
+}
+.MJX_HoverRegion {
+  display: none !important;
+}
+.MJX_ToolTip {
+    display: none !important;
 }
