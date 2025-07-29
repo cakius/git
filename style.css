@@ -57,3 +57,14 @@ body
     max-height: 1000px;
     overflow: hidden;
 }
+
+.MJX_LiveRegion {
+  background-color: #202020; 
+  color: transparent;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
