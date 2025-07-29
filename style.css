@@ -37,8 +37,7 @@ body
 {
     color: white;
     background-color: #202020;
-    display: none;
-    max-height: 0px;
+    max-height: 0;
     transition: max-height 0.6s ease;
     margin: 0;
     padding: 0; 
