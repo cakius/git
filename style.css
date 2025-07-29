@@ -13,11 +13,10 @@ body
     outline: none;
 }
 
-/* i doubt this will work */
-.inverted .math {
-      color: white;
-      background-color: #202020;
-    }
+/* attempt*/
+.MathJax_Display {
+    background-color:#202020 ;
+  }
 
 /* .accordion
 {
