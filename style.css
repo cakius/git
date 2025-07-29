@@ -60,11 +60,11 @@ body
 
 /* fix for white pixel */
 .MJX_LiveRegion {
-  display: none !important;
+    background-color: #202020;
 }
 .MJX_HoverRegion {
-  display: none !important;
+    background-color: #202020;
 }
 .MJX_ToolTip {
-    display: none !important;
+    background-color: #202020;      
 }
