@@ -6,7 +6,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1px;
+    margin: 0;
 }
 
 
@@ -27,7 +27,7 @@ body
     font-family: "Times New Roman", Times, serif;
     display: block;
     font-size: 1.5em; 
-    margin-top: 0.83em;
+    margin-top: 13px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
