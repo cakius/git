@@ -13,6 +13,12 @@ body
     outline: none;
 }
 
+/* i doubt this will work */
+.inverted .math {
+      color: white;
+      background-color: #202020;
+    }
+
 /* .accordion
 {
 
@@ -22,7 +28,6 @@ body
 {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .accordion-header
@@ -36,7 +41,6 @@ body
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    overflow: hidden;
 }
 
 .accordion-content
@@ -55,16 +59,4 @@ body
 {
     display: block;
     max-height: 1000px;
-    overflow: hidden;
-}
-
-/* fix for white pixel */
-.MJX_LiveRegion {
-    background-color: #202020;
-}
-.MJX_HoverRegion {
-    background-color: #202020;
-}
-.MJX_ToolTip {
-    background-color: #202020;      
 }
