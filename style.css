@@ -169,6 +169,7 @@ body
     }
     main{
         padding: 2em 1em 60px 1em;
+        overflow-x: hidden;
     }
     #sidebar{
         height: 60px;
@@ -180,7 +181,7 @@ body
         top: unset;
         bottom: 0;
         z-index: 9999;
-        
+
         > ul{
             padding: 0;
             display: grid;
