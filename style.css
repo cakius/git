@@ -178,14 +178,14 @@ body
         position: fixed;
         top: unset;
         bottom: 0;
-
+        z-index: 9999;
+        overflow-x: hidden;
         > ul{
             padding: 0;
             display: grid;
             grid-auto-columns: 60px;
             grid-auto-flow: column;
             align-items: center;
-            overflow-x: scroll;
         }
         ul li{
             height: 100%;
@@ -225,5 +225,13 @@ body
                 justify-content: center;
             }
         }
+    }
+    #sidebar > ul{
+        padding: 0;
+        display: grid;
+        grid-auto-columns: 60px;
+        grid-auto-flow: column;
+        align-items: center;
+        overflow-x: scroll;
     }
 }
