@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-      <title>Home</title>
+      <title>Calculus</title>
       <link rel="stylesheet" href="style.css">  
     </head>
 
@@ -19,7 +19,7 @@
             </button>
           </li>
           <!-- Home -->
-          <li class="active">
+          <li>
             <a href="index.html">
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#b28ecc"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
               <span>Home</span>
@@ -52,7 +52,7 @@
             <ul class="sub-menu">
               <div>
                 <li><a href="Trig.html">Trigonometry</a></li>
-                <li><a href="Calculus.html">Calculus</a></li>
+                <li class="active"><a href="Calculus.html">Calculus</a></li>
                 <li><a href="LinearAlg.html">Linear Algebra</a></li>
               </div>
             </ul>
@@ -80,68 +80,6 @@
       <main>
 
         <div class="accordion">
-
-          <div class="accordion-item">
-            <div class="accordion-header">Square Identities</div>
-            <div class="accordion-content">
-                $$\cos^2\theta+\sin^2\theta=1$$
-                $$1+\tan^2\theta=\sec^2\theta$$
-                $$1+\cot^2\theta=\csc^2\theta$$
-                $$\sin^2\theta=1-\cos^2\theta=\frac{1-\cos2\theta}{2}$$
-                $$\cos^2\theta=1-\sin^2\theta=\frac{1+\cos2\theta}{2}$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Sum and Difference Identities</div>
-            <div class="accordion-content">
-              $$\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B$$
-              $$\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$$
-              $$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Double Angle Identities</div>
-            <div class="accordion-content">
-              $$\cos2A=\cos^2A-\sin^2A=2\cos^2A-1=1-2\sin^2A$$
-              $$\sin2A=2\sin A\cos A$$
-              $$\tan2A=\frac{2\tan A}{1-\tan^2A}$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Half Angle Identities</div>
-            <div class="accordion-content">
-              $$\cos\tfrac{A}{2}=\pm\sqrt{\frac{1+\cos A}{2}}$$
-              $$\sin\tfrac{A}{2}=\pm\sqrt{\frac{1-\cos A}{2}}$$
-              $$\tan\tfrac{A}{2}=\pm\sqrt{\frac{1-\cos A}{1+\cos A}}=\frac{1-\cos A}{\sin A}=\frac{\sin A}{1+\cos A}$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Cofunction Identities</div>
-            <div class="accordion-content">
-              $$\cos(\tfrac{\pi}{2}-A)=\sin A$$
-              $$\sin(\tfrac{\pi}{2}-A)=\cos A$$
-              $$\tan(\tfrac{\pi}{2}-A)=\cot A$$
-              $$\cot(\tfrac{\pi}{2}-A)=\tan A$$
-              $$\sec(\tfrac{\pi}{2}-A)=\csc A$$
-              $$\csc(\tfrac{\pi}{2}-A)=\sec A$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Negative Angle Identities</div>
-            <div class="accordion-content">
-              $$\cos(-\theta)=\cos(\theta)$$
-              $$\sin(-\theta)=-1\cdot\sin(\theta)$$
-              $$\tan(-\theta)=-1\cdot\tan(\theta)$$
-              $$\cot(-\theta)=-1\cdot\cot(\theta)$$
-              $$\csc(-\theta)=-1\cdot\csc(\theta)$$
-              $$\sec(-\theta)=\sec(\theta)$$
-            </div>
-          </div>
 
           <div class="accordion-item">
             <div class="accordion-header">Reinmann Sum</div>
@@ -189,18 +127,6 @@
             <div class="accordion-header">Integration by Parts</div>
             <div class="accordion-content">
               $$\int_{}^{}udv=uv-\int_{}^{}vdu$$
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <div class="accordion-header">Vectors</div>
-            <div class="accordion-content">
-              $$\vec{A}=\vec{A}_xi+\vec{A}_yj+\vec{A}_zk$$
-              $$A^2=\mathrm{A}_{x}^{2}+\mathrm{A}_{y}^{2}+\mathrm{A}_{z}^{2}$$
-              $$\vec{A}\cdot \vec{B}=AB\cos\theta$$
-              $$\vec{A}\cdot \vec{B}=A_xB_x+A_yB_y+A_zB_z$$
-              $$\left|\vec{A}\times\vec{B}\right|=AB\sin\theta$$
-              $$\vec{A}\times\vec{B}=(A_yB_z-B_yA_z)i+(A_zB_x-B_zA_x)j+(A_xB_y-B_xA_y)k$$
             </div>
           </div>
 
