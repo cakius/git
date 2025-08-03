@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       <link rel="icon" type="image/png" href="favicon.png">
-      <title>Periodic Table</title>
-      <link rel="stylesheet" href="style.css">  
+      <title>Trigonometry</title>
+      <link rel="stylesheet" href="/style.css">  
     </head>
 
     <body>
@@ -36,9 +36,9 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="PhysEquations.html">Equations</a></li>
-                <li><a href="StandardModel.html">Standard Model</a></li>
-                <li><a href="Simulations.html">Simulations</a></li>
+                <li><a href="/physics-equations/">Equations</a></li>
+                <li><a href="/standard-model/">Standard Model</a></li>
+                <li><a href="/simulations/">Simulations</a></li>
               </div>
             </ul>
           </li>
@@ -52,9 +52,9 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="Trig.html">Trigonometry</a></li>
-                <li><a href="Calculus.html">Calculus</a></li>
-                <li><a href="LinearAlg.html">Linear Algebra</a></li>
+                <li class ="active"><a href="/trigonometry/">Trigonometry</a></li>
+                <li><a href="/calculus/">Calculus</a></li>
+                <li><a href="/linear-algebra/">Linear Algebra</a></li>
               </div>
             </ul>
           </li>
@@ -68,8 +68,8 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="ChemEquations.html">Equations</a></li>
-                <li class="active"><a href="PeriodicTable.html">Periodic Table</a></li>
+                <li><a href="/chemistry-equations/">Equations</a></li>
+                <li><a href="/periodic-table/">Periodic Table</a></li>
               </div>
             </ul>
           </li>
@@ -79,18 +79,100 @@
       </nav>
 
       <main>
-         <div class="accordion">
+
+        <div class="accordion">
 
           <div class="accordion-item">
-            <div class="accordion-header">Coming soon</div>
+            <div class="accordion-header">Square Identities</div>
             <div class="accordion-content">
+                $$\cos^2\theta+\sin^2\theta=1$$
+                $$1+\tan^2\theta=\sec^2\theta$$
+                $$1+\cot^2\theta=\csc^2\theta$$
+                $$\sin^2\theta=1-\cos^2\theta=\frac{1-\cos2\theta}{2}$$
+                $$\cos^2\theta=1-\sin^2\theta=\frac{1+\cos2\theta}{2}$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Sum and Difference Identities</div>
+            <div class="accordion-content">
+              $$\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B$$
+              $$\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$$
+              $$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Double Angle Identities</div>
+            <div class="accordion-content">
+              $$\cos2A=\cos^2A-\sin^2A=2\cos^2A-1=1-2\sin^2A$$
+              $$\sin2A=2\sin A\cos A$$
+              $$\tan2A=\frac{2\tan A}{1-\tan^2A}$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Half Angle Identities</div>
+            <div class="accordion-content">
+              $$\cos\tfrac{A}{2}=\pm\sqrt{\frac{1+\cos A}{2}}$$
+              $$\sin\tfrac{A}{2}=\pm\sqrt{\frac{1-\cos A}{2}}$$
+              $$\tan\tfrac{A}{2}=\pm\sqrt{\frac{1-\cos A}{1+\cos A}}=\frac{1-\cos A}{\sin A}=\frac{\sin A}{1+\cos A}$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Cofunction Identities</div>
+            <div class="accordion-content">
+              $$\cos(\tfrac{\pi}{2}-A)=\sin A$$
+              $$\sin(\tfrac{\pi}{2}-A)=\cos A$$
+              $$\tan(\tfrac{\pi}{2}-A)=\cot A$$
+              $$\cot(\tfrac{\pi}{2}-A)=\tan A$$
+              $$\sec(\tfrac{\pi}{2}-A)=\csc A$$
+              $$\csc(\tfrac{\pi}{2}-A)=\sec A$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Negative Angle Identities</div>
+            <div class="accordion-content">
+              $$\cos(-\theta)=\cos(\theta)$$
+              $$\sin(-\theta)=-1\cdot\sin(\theta)$$
+              $$\tan(-\theta)=-1\cdot\tan(\theta)$$
+              $$\cot(-\theta)=-1\cdot\cot(\theta)$$
+              $$\csc(-\theta)=-1\cdot\csc(\theta)$$
+              $$\sec(-\theta)=\sec(\theta)$$
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">Derivatives of Trig Functions</div>
+            <div class="accordion-content">
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\sin x=\cos x$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\cos x=-\sin x$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\tan x=\sec^2x$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\csc x=-\csc x\cot x$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\sec x=\sec x\tan x$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\cot x=-\csc^2x$$
+            </div>
+          </div>
+        
+          <div class="accordion-item">
+            <div class="accordion-header">Derivatives of Inverse Trig Functions</div>
+            <div class="accordion-content">
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\sin^{-1}x=\frac{1}{\sqrt{1-x^2}}$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\cos^{-1}x=-\frac{1}{\sqrt{1-x^2}}$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\tan^{-1}x=\frac{1}{{1+x^2}}$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\cot^{-1}x=-\frac{1}{{1+x^2}}$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\sec^{-1}x=\frac{1}{x\sqrt{x^2-1}}$$
+              $$\frac{\mathrm{d} }{\mathrm{d} x}\csc^{-1}x=-\frac{1}{x\sqrt{x^2-1}}$$
             </div>
           </div>
 
         </div>
-
-        <script src="index.js"></script>
+        
+        <script src="/index.js"></script>
 
       </main>
     </body>
 </html>
+          

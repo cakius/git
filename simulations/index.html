@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       <link rel="icon" type="image/png" href="favicon.png">
-      <title>Calculus</title>
-      <link rel="stylesheet" href="style.css">  
+      <title>Physics Simulations</title>
+      <link rel="stylesheet" href="/style.css">  
     </head>
 
     <body>
@@ -36,9 +36,9 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="PhysEquations.html">Equations</a></li>
-                <li><a href="StandardModel.html">Standard Model</a></li>
-                <li><a href="Simulations.html">Simulations</a></li>
+                <li><a href="/physics-equations/">Equations</a></li>
+                <li><a href="/standard-model/">Standard Model</a></li>
+                <li class="active"><a href="/simulations/">Simulations</a></li>
               </div>
             </ul>
           </li>
@@ -52,9 +52,9 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="Trig.html">Trigonometry</a></li>
-                <li class="active"><a href="Calculus.html">Calculus</a></li>
-                <li><a href="LinearAlg.html">Linear Algebra</a></li>
+                <li><a href="/trigonometry/">Trigonometry</a></li>
+                <li><a href="/calculus/">Calculus</a></li>
+                <li><a href="/linear-algebra/">Linear Algebra</a></li>
               </div>
             </ul>
           </li>
@@ -68,8 +68,8 @@
             </button>
             <ul class="sub-menu">
               <div>
-                <li><a href="ChemEquations.html">Equations</a></li>
-                <li><a href="PeriodicTable.html">Periodic Table</a></li>
+                <li><a href="/chemistry-equations/">Equations</a></li>
+                <li><a href="/periodic-table/">Periodic Table</a></li>
               </div>
             </ul>
           </li>
@@ -79,61 +79,17 @@
       </nav>
 
       <main>
+         <div class="accordion">
 
-        <div class="accordion">
-
           <div class="accordion-item">
-            <div class="accordion-header">Reinmann Sum</div>
+            <div class="accordion-header">Coming soon</div>
             <div class="accordion-content">
-              $$A=\displaystyle \lim_{ n\to \infty}\sum_{i=1}^{n}f(x_{i})\Delta x$$
-              $$where: \Delta x=\frac{b-a}{n}$$
-            </div>
-          </div>
-        
-          <div class="accordion-item">
-            <div class="accordion-header">Power Sums</div>
-            <div class="accordion-content">
-              $$\sum_{i=1}^{n}1=n$$
-              $$\sum_{i=1}^{n}i=\frac{n(n+1)}{2}$$
-              $$\sum_{i=1}^{n}i^2=\frac{n(n+1)(2n+1)}{6}$$
-              $$\sum_{i=1}^{n}i^3=\left [ \frac{n(n+1)}{2} \right ]^2$$
-            </div>
-          </div>
-    
-          <div class="accordion-item">
-            <div class="accordion-header">Derivatives of Trig Functions</div>
-            <div class="accordion-content">
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\sin x=\cos x$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\cos x=-\sin x$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\tan x=\sec^2x$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\csc x=-\csc x\cot x$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\sec x=\sec x\tan x$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\cot x=-\csc^2x$$
-            </div>
-          </div>
-        
-          <div class="accordion-item">
-            <div class="accordion-header">Derivatives of Inverse Trig Functions</div>
-            <div class="accordion-content">
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\sin^{-1}x=\frac{1}{\sqrt{1-x^2}}$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\cos^{-1}x=-\frac{1}{\sqrt{1-x^2}}$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\tan^{-1}x=\frac{1}{{1+x^2}}$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\cot^{-1}x=-\frac{1}{{1+x^2}}$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\sec^{-1}x=\frac{1}{x\sqrt{x^2-1}}$$
-              $$\frac{\mathrm{d} }{\mathrm{d} x}\csc^{-1}x=-\frac{1}{x\sqrt{x^2-1}}$$
-            </div>
-          </div>
-      
-          <div class="accordion-item">
-            <div class="accordion-header">Integration by Parts</div>
-            <div class="accordion-content">
-              $$\int_{}^{}udv=uv-\int_{}^{}vdu$$
             </div>
           </div>
 
         </div>
-        
-        <script src="index.js"></script>
+
+        <script src="/index.js"></script>
 
       </main>
     </body>
