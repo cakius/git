@@ -6,7 +6,6 @@ window.onload = () => {
     const accordionHeaders = document.querySelectorAll(".accordion-header");
     const accordionContents = document.querySelectorAll(".accordion-content");
 
-    // Set initial maxHeight for any that are already active (open by default)
     accordionContents.forEach((content) => {
         if (content.classList.contains("active")) {
             content.style.maxHeight = content.scrollHeight + "px";
