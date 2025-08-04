@@ -87,7 +87,7 @@ body
     transition: 300ms ease-in-out;
     
 }
-/* dumb code */
+
 #sidebar .sub-menu > div {
   overflow: hidden;
 }

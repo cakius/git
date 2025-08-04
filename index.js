@@ -1,25 +1,33 @@
-const accordionHeaders = document.querySelectorAll(".accordion-header");
-const accordionContents = document.querySelectorAll(".accordion-content");
+
 const toggleButton = document.getElementById("toggle-btn");
 const sidebar = document.getElementById("sidebar");
 
-accordionHeaders.forEach((header) => {
-    header.addEventListener("click", () => {
-        const accordionItem = header.parentElement;
-        const accordionContent = accordionItem.querySelector(".accordion-content");
+window.onload = () => {
+    const accordionHeaders = document.querySelectorAll(".accordion-header");
+    const accordionContents = document.querySelectorAll(".accordion-content");
 
-        accordionContent.classList.toggle("active");
-
-        if(accordionContent.classList.contains("active")) 
-        {
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
-        }
-        else
-        {
-            accordionContent.style.maxHeight = "0";
+    // Set initial maxHeight for any that are already active (open by default)
+    accordionContents.forEach((content) => {
+        if (content.classList.contains("active")) {
+            content.style.maxHeight = content.scrollHeight + "px";
         }
     });
-});
+
+    accordionHeaders.forEach((header) => {
+        header.addEventListener("click", () => {
+            const accordionItem = header.parentElement;
+            const accordionContent = accordionItem.querySelector(".accordion-content");
+
+            accordionContent.classList.toggle("active");
+
+            if (accordionContent.classList.contains("active")) {
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+            } else {
+                accordionContent.style.maxHeight = "0";
+            }
+        });
+    });
+};
 
 function toggleSidebar(){
     sidebar.classList.toggle("close");
