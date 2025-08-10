@@ -14,6 +14,28 @@ body
     line-height: 1.5rem;
     
 }
+main{
+    padding: min(30px, 7%);
+}
+main p{
+    color: #DADADA;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+main h2{
+    color: #b28ecc;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.container
+{
+    border: 1px solid #b28ecc;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    padding: min(3em, 15%);
+
+    h2, p {margin-top: 1em};
+}
 
 #sidebar{
     box-sizing: border-box;
