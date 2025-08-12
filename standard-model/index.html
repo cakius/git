@@ -9,8 +9,7 @@
       <link rel="stylesheet" href="/style.css">  
     </head>
 
-    <body>
-
+    <body  style="overflow-y: hidden;">
       <nav id ="sidebar">
         <ul>
           <li>
@@ -81,15 +80,127 @@
       </nav>
 
       <main>
-         <div class="accordion">
+        <table class="myTbl">
+          <tr>
+            <th>
+              <h2 style="color:#b3b3b3; font-family: Arial; margin-bottom: 0.83em;">Standard Model of Elementary Particles</h2>
+            </th>
+          </tr>
+          <tr>
+            <td> 
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx2.16~MeV/c^2\)<br>2/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">u</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">up</h2>
+              </button>
 
-          <div class="accordion-item">
-            <div class="accordion-header">Coming soon</div>
-            <div class="accordion-content active">
-            </div>
-          </div>
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx1.273~GeV/c^2\)<br>2/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">c</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">charm</h2>
+              </button>
 
-        </div>
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx172.57~GeV/c^2\)<br>2/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">t</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">top</h2>
+              </button>
+
+              <button class="myBtn" style="border-color: #E86B54; color: #E86B54;">
+                <span class="SMdata">0<br>0<br>1</span>
+                <div class="circle" style="border-color: #E86B54; color: #E86B54;">g</div>
+                <h2 class="SMlabel" style="color: #E86B54;">gluon</h2>
+              </button>
+
+              <button class="myBtn" style="border-color: #EEC94A; color: #EEC94A;">
+                <span class="SMdata">\(\approx125.2~GeV/c^2\)<br>0<br>0</span>
+                <div class="circle" style="border-color: #EEC94A; color: #EEC94A;">H</div>
+                <h2 class="SMlabel" style="color: #EEC94A;">higgs</h2>
+              </button>
+            </td>
+          </tr> 
+          <tr>
+            <td>
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx4.7~MeV/c^2\)<br>-1/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">d</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">down</h2>
+              </button>
+
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx93.5~MeV/c^2\)<br>-1/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">s</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">strange</h2>
+              </button>
+
+              <button class="myBtn" style="border-color: #A68AF9; color: #A68AF9;">
+                <span class="SMdata">\(\approx4.183~GeV/c^2\)<br>-1/3<br>1/2</span>
+                <div class="circle" style="border-color: #A68AF9; color: #A68AF9;">b</div>
+                <h2 class="SMlabel" style="color: #A68AF9;">bottom</h2>
+              </button>
+
+              <button class="myBtn" style="border-color: #E86B54; color: #E86B54">
+                <span class="SMdata">0<br>0<br>1</span>
+                <div class="circle" style="border-color: #E86B54; color: #E86B54;">\(\gamma\)</div>
+                <h2 class="SMlabel" style="color: #E86B54;">photon</h2>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\approx0.511~MeV/c^2\)<br>-1<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">e</div>
+                <h2 class="SMlabel" style="color: #74D341;">electron</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\approx1.77693~GeV/c^2\)<br>-1<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">\(\mu\)</div>
+                <h2 class="SMlabel" style="color: #74D341;">muon</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\approx105.66~MeV/c^2\)<br>-1<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">\(\tau\)</div>
+                <h2 class="SMlabel" style="color: #74D341;">tau</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#E86B54; color:#E86B54;">
+                <span class="SMdata">\(\approx91.188~GeV/c^2\)<br>0<br>1</span>
+                <div class="circle" style="border-color: #E86B54; color: #E86B54;">Z</div>
+                <h2 class="SMlabel" style="color: #E86B54;">Z boson</h2>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\lt0.8~eV/c^2\)<br>0<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">\(V_e\)</div>
+                <h2 class="SMlabel" style="color: #74D341;">electron neutrino</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\lt0.17~MeV/c^2\)<br>0<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">\(V_\mu\)</div>
+                <h2 class="SMlabel" style="color: #74D341;">muon neutrino</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#74D341; color:#74D341">
+                <span class="SMdata">\(\lt18.2~MeV/c^2\)<br>0<br>1/2</span>
+                <div class="circle" style="border-color: #74D341; color: #74D341;">\(V_\tau\)</div>
+                <h2 class="SMlabel" style="color: #74D341;">tau neutrino</h2>
+              </button>
+
+              <button class="myBtn" style="border-color:#E86B54; color:#E86B54;">
+                <span class="SMdata">\(\approx80.3692~GeV/c^2\)<br>\(\pm1\) <br>1</span>
+                <div class="circle" style="border-color: #E86B54; color: #E86B54;">W</div>
+                <h2 class="SMlabel" style="color: #E86B54;">W boson</h2>
+              </button>
+            </td>
+          </tr>
+        </table>
 
         <script src="/index.js"></script>
 

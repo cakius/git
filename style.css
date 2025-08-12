@@ -27,6 +27,27 @@ main h2{
     font-family: "Times New Roman", Times, serif;
     
 }
+.circle
+{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #202020;
+    color: #b28ecc;
+    font-size: 10px;
+    border: 2px solid #b28ecc;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    font-size: 20px;
+}
 .container
 {
     border: 1px solid #b28ecc;
@@ -36,7 +57,46 @@ main h2{
 
     h2, p {margin-top: 1em};
 }
-
+.myTbl
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b28ecc;
+    border-radius: 1em;
+    margin: 0;
+    padding: min(3em, 15%); 
+    
+}
+.myBtn
+{
+    position: relative;
+    text-align: left;
+    background-color: #202020;
+    color: #b28ecc;
+    font-size: 10px;
+    border: 2px solid #b28ecc;
+    border-radius: 15px;
+    padding: 5px 1em;
+    height: 125px;
+    width: 125px;
+    margin: 5px;
+}
+.SMdata{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;   
+    font-family: Arial;        
+}
+.SMlabel{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-family: Arial;
+}
 #sidebar{
     box-sizing: border-box;
     height: 100vh;
